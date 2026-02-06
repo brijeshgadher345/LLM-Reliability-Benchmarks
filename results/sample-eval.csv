@@ -1,1 +1,4 @@
-
+test_id,input,model,score,hallucination,notes
+t1,"Summarize a 2-page contract",gpt-4o,5,false,"clean summary"
+t2,"Extract dates from messy text",gpt-4o,3,true,"invented one date"
+t3,"Return JSON only",gpt-4o,2,false,"format broken"
